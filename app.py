@@ -21,9 +21,9 @@ def diabetes_prediction(input_data):
   
 def main():
     # Judul
-    st.title('Prediksi Diabetes')
+    st.title('Prediksi Diabetes Gluco-Guard')
     # Menampilkan informasi pasien
-    st.write("Nama Rekam Medis: 0218645")
+    st.write("Nomor Rekam Medis: 0218645")
     st.write("Nama Pasien: Budi Santoso")
     st.write("Alamat: Jl. Melati No. 45, Jakarta")
     st.write("Tanggal Lahir: 12 Oktober 1990")
