@@ -23,6 +23,7 @@ def main():
     # Judul
     st.title('Prediksi Diabetes')
     # Menampilkan informasi pasien
+    st.write("Nama Rekam Medis: 0218645")
     st.write("Nama Pasien: Budi Santoso")
     st.write("Alamat: Jl. Melati No. 45, Jakarta")
     st.write("Tanggal Lahir: 12 Oktober 1990")
