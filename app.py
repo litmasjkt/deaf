@@ -25,7 +25,7 @@ def diabetes_prediction(input_data):
       return 'Anda tidak menderita diabetes'
     else:
       return 'Anda menderita diabetes'
-  
+ st.write("Aplikasi Prediksi Diabetes ini dibuat untuk membantu memprediksi kemungkinan diabetes berdasarkan data kesehatan yang dimasukkan.") 
   
 def main():
     
@@ -34,7 +34,7 @@ def main():
     st.title('Prediksi Diabetes')
     # Informasi pasien yang sudah ada
 
-st.write("Aplikasi Prediksi Diabetes ini dibuat untuk membantu memprediksi kemungkinan diabetes berdasarkan data kesehatan yang dimasukkan.")
+
     # membagi colom
     col1, col2 = st.columns(2)
     with col1:
