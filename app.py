@@ -22,7 +22,11 @@ def diabetes_prediction(input_data):
 def main():
     # Judul
     st.title('Prediksi Diabetes')
-
+    # Menampilkan informasi pasien
+    st.write("Nama Pasien: Budi Santoso")
+    st.write("Alamat: Jl. Melati No. 45, Jakarta")
+    st.write("Tanggal Lahir: 12 Oktober 1990")
+    st.write("Jenis Kelamin: Laki-laki")
     # membagi kolom
     col1, col2 = st.columns(2)
     with col1:
