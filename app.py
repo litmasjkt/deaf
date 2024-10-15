@@ -31,7 +31,7 @@ def main():
     
     
     # Judul
-    st.title('Prediksi Diabetes Bebasis Web')
+    st.title('Prediksi Diabetes')
     
     
     # membagi colom
