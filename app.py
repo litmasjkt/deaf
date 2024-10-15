@@ -61,21 +61,7 @@ def main():
     
     if st.button('Diabetes Test Result'):
         diagnosis = diabetes_prediction([Pregnancies, Glucose, BloodPressure, SkinThickness, Insulin, BMI, DiabetesPedigreeFunction, Age])
-        if prediction == 0:
-            diagnosis = 'Anda tidak menderita diabetes'
-            # Menampilkan button hijau dengan hasil
-            st.markdown(
-                f'<button style="background-color:green;color:white;padding:10px;border:none;width:100%;">{diagnosis}</button>',
-                unsafe_allow_html=True
-            )
-        else:
-            diagnosis = 'Anda menderita diabetes'
-            # Menampilkan button merah dengan hasil
-            st.markdown(
-                f'<button style="background-color:red;color:white;padding:10px;border:none;width:100%;">{diagnosis}</button>',
-                unsafe_allow_html=True
-            )
-        
+       
     st.success(diagnosis)
 if __name__ == '__main__':
     main()
