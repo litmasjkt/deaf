@@ -35,8 +35,6 @@ def main():
     # Informasi pasien yang sudah ada
 
 
-st.write("Jenis Kelamin" "Laki Laki")
-
     # membagi colom
     col1, col2 = st.columns(2)
     with col1:
