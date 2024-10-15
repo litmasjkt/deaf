@@ -25,7 +25,7 @@ def diabetes_prediction(input_data):
       return 'Anda tidak menderita diabetes'
     else:
       return 'Anda menderita diabetes'
- st.write("Aplikasi Prediksi Diabetes ini dibuat untuk membantu memprediksi kemungkinan diabetes berdasarkan data kesehatan yang dimasukkan.") 
+ 
   
 def main():
     
