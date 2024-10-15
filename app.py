@@ -32,7 +32,11 @@ def main():
     
     # Judul
     st.title('Prediksi Diabetes')
-    
+    # Informasi pasien yang sudah ada
+nama = "Budi Santoso"
+alamat = "Jl. Melati No. 45, Jakarta"
+tanggal_lahir = "12 Oktober 1990"
+jenis_kelamin = "Laki-laki"
     # Menampilkan informasi pasien
 st.write("### Informasi Pasien")
 st.write(f"**Nama Pasien**: {nama}")
