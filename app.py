@@ -33,7 +33,13 @@ def main():
     # Judul
     st.title('Prediksi Diabetes')
     
-    
+    # Menampilkan informasi pasien
+st.write("### Informasi Pasien")
+st.write(f"**Nama Pasien**: {nama}")
+st.write(f"**Alamat**: {alamat}")
+st.write(f"**Tanggal Lahir**: {tanggal_lahir}")
+st.write(f"**Jenis Kelamin**: {jenis_kelamin}")
+
     # membagi colom
     col1, col2 = st.columns(2)
     with col1:
